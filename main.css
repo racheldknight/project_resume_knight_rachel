@@ -27,3 +27,14 @@ p {
     display: inline-block;
 }
 
+#work {
+    background-color: #03A696;
+    text-align: center;
+    padding-top: 20px;
+}
+
+#work_entry {
+    padding: 20px;
+    width: 25%;
+    display: inline-block;
+}
