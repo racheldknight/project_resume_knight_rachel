@@ -8,10 +8,21 @@ p {
 
 #home {
     background-color: #F1F2E4;
-    width: 100%;
     padding: 20px 0px 20px 0px;
 }
 
 #home h1, h2, p {
     text-align: center;
 }
+
+#education {
+    background-color: #49C4BE;
+    text-align: center;
+}
+
+#ufl, #vt {
+    padding: 30px;
+    width: 40%;
+    display: inline-block;
+}
+
