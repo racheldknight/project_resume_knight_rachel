@@ -1,0 +1,12 @@
+h1, h2 {
+    font-family: 'Lato', sans-serif;
+}
+
+p {
+    font-family: 'Gentium Book Basic', serif;
+}
+
+#home {
+    background-color: #F1F2E4;
+    width: 100%;
+}
