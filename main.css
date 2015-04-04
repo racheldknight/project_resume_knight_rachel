@@ -6,10 +6,13 @@ p, li {
     font-family: 'Gentium Book Basic', serif;
 }
 
+.navbar-wrapper {
+    position: relative;
+    z-index: 15;
+    width: 100%;
+}
+
 nav {
-    margin: 0;
-    position:fixed;
-    top:0px;
     width:100%; 
     height:100px;
     background-color: #fff;
@@ -35,8 +38,7 @@ nav a:visited {
 
 #home {
     background-color: #F1F2E4;
-    padding-top: 100px;
-    height: 100vh;
+    padding: 100px 0px 100px 0px;
 }
 
 #home h1, h2, p {
