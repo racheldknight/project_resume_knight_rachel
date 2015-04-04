@@ -2,8 +2,30 @@ h1, h2, h3 {
     font-family: 'Lato', sans-serif;
 }
 
-p {
+p, li {
     font-family: 'Gentium Book Basic', serif;
+}
+
+nav {
+    margin: 0;
+}
+nav ul {
+    text-decoration: none;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 30px;
+}
+
+nav a:link {
+    text-decoration: none;
+    color: #a0a0a0;
+}
+
+nav a:visited {
+    color: #a0a0a0;
 }
 
 #home {
