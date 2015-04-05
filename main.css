@@ -60,6 +60,7 @@ nav a:visited {
 #home {
     background-color: #F1F2E4;
     padding: 100px 0px 100px 0px;
+    text-align: center;
 }
 
 #home h1, h2, p {
