@@ -11,15 +11,15 @@ p, li {
     color: #445859;
 }
 
-#work, #interests p {
+#work p, #interests p {
     color: #fff;
 }
 
-#work, #interests h1 {
+#work h1, #interests h1 {
     color: #fff;
 }
 
-#work, #interests h3 {
+#work h3, #interests h3 {
     color: #fff;
 }
 
@@ -90,6 +90,7 @@ nav a:visited {
     padding: 20px;
     width: 25%;
     display: inline-block;
+    vertical-align: top;
 }
 
 #skills {
@@ -111,4 +112,8 @@ nav a:visited {
     height: 100vh;
     text-align: center;
     padding-top: 115px;
+}
+
+#interest-list {
+    padding-top: 30px;
 }
