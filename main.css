@@ -1,9 +1,26 @@
 h1, h2, h3 {
     font-family: 'Lato', sans-serif;
+    color: #445859;
 }
 
 p, li {
     font-family: 'Gentium Book Basic', serif;
+}
+
+#home, #education, #skills p {
+    color: #445859;
+}
+
+#work, #interests p {
+    color: #fff;
+}
+
+#work, #interests h1 {
+    color: #fff;
+}
+
+#work, #interests h3 {
+    color: #fff;
 }
 
 .navbar-wrapper {
