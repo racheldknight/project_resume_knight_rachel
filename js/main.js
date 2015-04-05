@@ -19,3 +19,23 @@ jQuery(function($) {
     });
 
 });
+
+    var barChartData = {
+        labels : ["HTML","CSS","jQuery","JS","Design","Branding","SEO"],
+        datasets : [
+            {
+                fillColor : "rgba(220,220,220,0.5)",
+                strokeColor : "rgba(220,220,220,0.8)",
+                highlightFill: "rgba(220,220,220,0.75)",
+                highlightStroke: "rgba(220,220,220,1)",
+                data : [90,90,70,60,90,80,80]
+            },
+        ]
+
+    }
+    window.onload = function(){
+        var ctx = document.getElementById("myChart").getContext("2d");
+        window.myBar = new Chart(ctx).Bar(barChartData, {
+            responsive : true
+        });
+    }

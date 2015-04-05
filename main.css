@@ -86,6 +86,7 @@ nav a:visited {
     margin: 0 auto;
     font-family: 'Gentium Book Basic', serif;
     padding-top: 40px;
+    width: 50%;
 }
 
 #interests {
