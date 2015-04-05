@@ -117,3 +117,44 @@ nav a:visited {
 #interest-list {
     padding-top: 30px;
 }
+
+footer p {
+    color: #fff;
+    margin: 0;
+}
+
+footer a:link {
+    text-decoration: none;
+    color: #fff;
+}
+
+footer a:active {
+    color: #fff;
+}
+
+footer a:visited {
+    color: #fff;
+}
+
+
+.call, .email, .connect, .tweet {
+    width: 22.6%;
+    float: left;
+    padding: 15px;
+}
+
+.call {
+    background-color: #49C4BE;
+}
+
+.email {
+    background-color: #03A696;
+}
+
+.connect {
+    background-color: #FF7746;
+}
+
+.tweet {
+    background-color: #445859;
+}
