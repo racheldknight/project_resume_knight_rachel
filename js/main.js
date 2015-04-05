@@ -1,11 +1,4 @@
-arrayOfData = new Array(
-    [90,'HTML','#F1F2E4'],
-    [90,'CSS','#F1F2E4'],
-    [70,'SEO','#F1F2E4'],
-    [60,'jQuery/JS','#F1F2E4'],
-    [80,'Branding','#F1F2E4'],
-    [90, 'Design', '#F1F2E4']
-);
+
 
 jQuery(function($) {
     $(document).ready( function() {
@@ -21,10 +14,7 @@ jQuery(function($) {
             topMargin: 'auto'
         });
 
-        $('#graph').jqBarGraph({ 
-            data: arrayOfData,
-            showValues: false,
-        });
+
 
     });
 

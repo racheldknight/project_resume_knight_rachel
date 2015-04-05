@@ -82,6 +82,12 @@ nav a:visited {
     padding-top: 115px;
 }
 
+#graph {
+    margin: 0 auto;
+    font-family: 'Gentium Book Basic', serif;
+    padding-top: 40px;
+}
+
 #interests {
     background-color: #445859;
     height: 100vh;
