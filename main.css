@@ -32,6 +32,10 @@ nav a:link {
     color: #a0a0a0;
 }
 
+nav a:active {
+    color: #8F9E8B;
+}
+
 nav a:visited {
     color: #a0a0a0;
 }
