@@ -8,7 +8,7 @@ jQuery(function($) {
                 1: 'work',
                 2: 'skills',
                 3: 'interests',
-                4: 'footer'
+                4: 'contact'
             },
             itemClass: 'menuItem',
             itemHover: 'active',
