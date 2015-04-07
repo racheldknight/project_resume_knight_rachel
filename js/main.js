@@ -15,7 +15,10 @@ jQuery(function($) {
             topMargin: 'auto'
         });
 
-
+        $('#education').animatescroll({element:'.menu-edu'});
+        $('#work').animatescroll({element:'.menu-work'});
+        $('#skills').animatescroll({element:'.menu-skill'});
+        $('#interests').animatescroll({element:'.menu-interest'});
 
     });
 
