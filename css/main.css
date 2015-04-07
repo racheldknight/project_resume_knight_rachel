@@ -1,0 +1,250 @@
+menu, ol, ul { 
+    padding: 0;
+}
+
+h1, h2, h3 {
+    font-family: 'Lato', sans-serif;
+    color: #445859;
+}
+
+p, li {
+    font-family: 'Gentium Book Basic', serif;
+}
+
+#home, #education, #skills p {
+    color: #445859;
+}
+
+#work p, #interests p {
+    color: #fff;
+}
+
+#work h1, #interests h1 {
+    color: #fff;
+}
+
+#work h3, #interests h3 {
+    color: #fff;
+}
+
+.navbar-wrapper {
+    position: relative;
+    z-index: 15;
+    width: 100%;
+}
+
+nav {
+    background-color: #fff;
+    width:100%; 
+}
+
+nav ul {
+    text-decoration: none;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav a:link {
+    text-decoration: none;
+    color: #a0a0a0;
+}
+
+nav a:active {
+    color: #8F9E8B;
+}
+
+nav a:visited {
+    color: #a0a0a0;
+}
+
+#home {
+    background-color: #F1F2E4;
+    padding: 100px 0px 100px 0px;
+    text-align: center;
+}
+
+#home h1, h2, p {
+    text-align: center;
+}
+
+#education {
+    background-color: #49C4BE;
+    height: 100vh;
+    text-align: center;
+}
+
+#ufl, #vt {
+    padding: 30px;
+    display: inline-block;
+}
+
+#work {
+    background-color: #03A696;
+    text-align: center;
+}
+
+#work_entry {
+    padding: 20px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+#skills {
+    background-color: #FF7746;
+    height: 100vh;
+    text-align: center;
+}
+
+#graph {
+    margin: 0 auto;
+    font-family: 'Gentium Book Basic', serif;
+    padding-top: 40px;
+}
+
+#interests {
+    background-color: #445859;
+    height: 100vh;
+    text-align: center;
+}
+
+#interest-list {
+    padding-top: 30px;
+}
+
+footer p {
+    color: #fff;
+    margin: 0;
+}
+
+footer a:link {
+    text-decoration: none;
+    color: #fff;
+}
+
+footer a:active {
+    color: #fff;
+}
+
+footer a:visited {
+    color: #fff;
+}
+
+
+.call, .email, .connect, .tweet {
+    float: left;
+    padding: 15px;
+}
+
+.call {
+    background-color: #49C4BE;
+}
+
+.email {
+    background-color: #03A696;
+}
+
+.connect {
+    background-color: #FF7746;
+}
+
+.tweet {
+    background-color: #445859;
+}
+
+@media (min-width: 400px) {
+    #home img { 
+        width: 30%;
+    }
+
+    nav {
+        height:120px;
+    }
+
+    nav ul li {
+         padding: 20px;
+    }
+
+    #education, #skills, #work, #interests {
+        padding-top: 130px;
+    }
+
+    #ufl, #vt {
+        width: 50%;
+    }
+
+    #work_entry {
+        width: 50%; 
+    }
+
+    #graph {
+        width: 100%;
+    }
+
+    .call, .email, .connect, .tweet {
+        width: 42.1%;
+    }
+}
+
+@media (min-width: 450px) {
+    .call, .email, .connect, .tweet {
+        width: 43%;
+    }
+}
+
+@media (min-width: 480px) {
+    nav ul li {
+         padding: 21px;
+    }
+}
+
+@media (min-width: 480px) {
+    nav ul li {
+         padding: 23px;
+    }
+}
+
+@media (min-width: 500px) {
+    .call, .email, .connect, .tweet {
+        width: 43.8%;
+    }
+
+    nav ul li {
+         padding: 23px;
+    }
+}
+
+@media (min-width: 502px) {
+    nav ul li {
+         padding: 25px;
+    }
+}
+
+@media (min-width: 518px) {
+    nav ul li {
+         padding: 27.1px;
+    }
+}
+
+@media (min-width: 535px) {
+    nav ul li {
+         padding: 12px;
+    }
+
+        nav {
+        height: 80px;
+    }
+
+    #graph {
+        width: 90%;
+    }
+
+}
+
+@media (min-width: 600px) {
+    .call, .email, .connect, .tweet {
+        width: 44.8%;
+    }
+}
