@@ -94,7 +94,7 @@ nav a:visited {
     text-align: center;
 }
 
-#work_entry {
+.work_entry {
     padding: 20px;
     display: inline-block;
     vertical-align: top;
@@ -183,7 +183,7 @@ footer a:visited {
         width: 50%;
     }
 
-    #work_entry {
+    .work_entry {
         width: 50%; 
     }
 
@@ -290,7 +290,7 @@ footer a:visited {
         width: 30%;
     }
 
-    #work_entry {
+    .work_entry {
         width: 43%; 
     }
 
@@ -308,7 +308,7 @@ footer a:visited {
          padding: 30px;
     }
 
-    #work_entry {
+    .work_entry {
         width: 28%; 
         height: 100vh;
     }
