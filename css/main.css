@@ -32,6 +32,11 @@ p, li {
     color: #fff;
 }
 
+
+.active {
+    color: #8F9E8B;
+}
+
 .navbar-wrapper {
     position: relative;
     z-index: 15;
@@ -41,6 +46,7 @@ p, li {
 nav {
     background-color: #fff;
     width:100%; 
+    max-width: 1280px;
 }
 
 nav ul {
@@ -50,15 +56,12 @@ nav ul {
 
 nav ul li {
     display: inline-block;
+    color: #a0a0a0;
 }
 
 nav a:link {
     text-decoration: none;
     color: #a0a0a0;
-}
-
-nav a:active {
-    color: #8F9E8B;
 }
 
 nav a:visited {
@@ -336,6 +339,12 @@ footer a:visited {
 }
 
 @media (min-width: 1200px) {
+    .call, .email, .connect, .tweet {
+        width: 22.3%;
+    }
+}
+
+@media (min-width: 1280px) {
     .call, .email, .connect, .tweet {
         width: 22.6%;
     }

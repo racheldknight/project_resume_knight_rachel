@@ -1,5 +1,3 @@
-
-
 jQuery(function($) {
     $(document).ready( function() {
         $('.navbar-wrapper').stickUp({
@@ -14,37 +12,30 @@ jQuery(function($) {
             itemHover: 'active',
             topMargin: 'auto'
         });
-
-        $('#education').animatescroll({element:'.menu-edu'});
-        $('#work').animatescroll({element:'.menu-work'});
-        $('#skills').animatescroll({element:'.menu-skill'});
-        $('#interests').animatescroll({element:'.menu-interest'});
-
     });
-
 });
 
-    var barChartData = {
-        labels : ["HTML","CSS","jQuery","JS","Design","Branding","SEO"],
-        datasets : [
-            {
-                fillColor : "rgba(220,220,220,0.5)",
-                strokeColor : "rgba(220,220,220,0.8)",
-                highlightFill: "rgba(220,220,220,0.75)",
-                highlightStroke: "rgba(220,220,220,1)",
-                data : [90,90,70,60,90,80,80],
-            },
-        ]
+var barChartData = {
+    labels : ["HTML","CSS","jQuery","JS","Design","Branding","SEO"],
+    datasets : [
+        {
+            fillColor : "rgba(220,220,220,0.5)",
+            strokeColor : "rgba(220,220,220,0.8)",
+            highlightFill: "rgba(220,220,220,0.75)",
+            highlightStroke: "rgba(220,220,220,1)",
+            data : [90,90,70,60,90,80,80],
+        },
+    ]
+}
 
-    }
-    window.onload = function(){
-        var ctx = document.getElementById("myChart").getContext("2d");
-        window.myBar = new Chart(ctx).Bar(barChartData, {
-            responsive : true,
-            scaleShowGridLines : false,
-            scaleFontFamily: "'Gentium Book Basic', 'serif'",
-            scaleFontColor: "#445859",
-            scaleFontSize: 16,
-            showTooltips: false
-        });
-    }
+window.onload = function(){
+    var ctx = document.getElementById("myChart").getContext("2d");
+    window.myBar = new Chart(ctx).Bar(barChartData, {
+        responsive : true,
+        scaleShowGridLines : false,
+        scaleFontFamily: "'Gentium Book Basic', 'serif'",
+        scaleFontColor: "#445859",
+        scaleFontSize: 16,
+        showTooltips: false
+    });
+}
