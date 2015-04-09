@@ -122,6 +122,10 @@ nav a:visited {
     padding-top: 30px;
 }
 
+footer {
+    width: 100%;
+}
+
 footer p {
     color: #fff;
     margin: 0;
@@ -140,10 +144,9 @@ footer a:visited {
     color: #fff;
 }
 
-
 .call, .email, .connect, .tweet {
-    float: left;
     padding: 15px;
+    box-sizing: border-box;
 }
 
 .call {
@@ -190,16 +193,6 @@ footer a:visited {
     #graph {
         width: 100%;
     }
-
-    .call, .email, .connect, .tweet {
-        width: 42.1%;
-    }
-}
-
-@media (min-width: 450px) {
-    .call, .email, .connect, .tweet {
-        width: 43%;
-    }
 }
 
 @media (min-width: 480px) {
@@ -215,10 +208,6 @@ footer a:visited {
 }
 
 @media (min-width: 500px) {
-    .call, .email, .connect, .tweet {
-        width: 43.8%;
-    }
-
     nav ul li {
          padding: 23px;
     }
@@ -251,9 +240,10 @@ footer a:visited {
 
 }
 
-@media (min-width: 600px) {
+@media (min-width: 650px) {
     .call, .email, .connect, .tweet {
-        width: 44.8%;
+        float: left;
+        width: calc(100%/4);
     }
 }
 
@@ -262,20 +252,12 @@ footer a:visited {
         width: 25%;
     }
 
-    .call, .email, .connect, .tweet {
-        width: 20.6%;
-    }
-
     nav ul li {
          padding: 25px;
     }
 }
 
 @media (min-width: 800px) {
-    .call, .email, .connect, .tweet {
-        width: 21.1%;
-    }
-
     #graph {
         width: 80%;
     }
@@ -316,10 +298,6 @@ footer a:visited {
     #graph {
         width: 60%;
     }
-
-    .call, .email, .connect, .tweet {
-        width: 22%;
-    }
 }
 
 @media (min-width: 1100px) {
@@ -335,17 +313,5 @@ footer a:visited {
 @media (min-width: 1030px) {
     #home img { 
         width: 17%;
-    }
-}
-
-@media (min-width: 1200px) {
-    .call, .email, .connect, .tweet {
-        width: 22.3%;
-    }
-}
-
-@media (min-width: 1280px) {
-    .call, .email, .connect, .tweet {
-        width: 22.6%;
     }
 }
