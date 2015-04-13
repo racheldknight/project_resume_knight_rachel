@@ -12,6 +12,12 @@ jQuery(function($) {
             itemHover: 'active',
             topMargin: 'auto'
         });
+
+        $( '.jump-to-section' ).on( 'click', function() {
+            var section = $(this).attr('data-section');
+
+            $( section ).animatescroll({scrollSpeed:2000,easing:'easeInOutBack'});
+        });
     });
 });
 
